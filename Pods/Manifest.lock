@@ -1,0 +1,51 @@
+PODS:
+  - IQKeyboardManagerSwift (6.3.0)
+  - NCMB (3.1.0)
+  - NYXImagesKit (2.3)
+  - PKHUD (5.3.0)
+  - Realm (5.4.0):
+    - Realm/Headers (= 5.4.0)
+  - Realm/Headers (5.4.0)
+  - RealmSwift (5.4.0):
+    - Realm (= 5.4.0)
+  - SwiftDate (6.1.0)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift (= 6.3.0)
+  - NCMB (from `https://github.com/NIFTYCloud-mbaas/ncmb_ios.git`, branch `develop`)
+  - NYXImagesKit
+  - PKHUD (~> 5.0)
+  - RealmSwift
+  - SwiftDate (~> 6.1)
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - NYXImagesKit
+    - PKHUD
+    - Realm
+    - RealmSwift
+    - SwiftDate
+
+EXTERNAL SOURCES:
+  NCMB:
+    :branch: develop
+    :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
+
+CHECKOUT OPTIONS:
+  NCMB:
+    :commit: 73eef06d8f87d92d152ec0b2f3797a465801abe4
+    :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
+  NCMB: c308972109137bf523ec1830bac16de6a31c25f4
+  NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  Realm: 8949757d76e2451a53d727954c607e49c2542b77
+  RealmSwift: 0b7d7121e842724188123c6086831ae6d2952050
+  SwiftDate: fa2bb3962056bb44047b4b85a30044e5eae30b03
+
+PODFILE CHECKSUM: 39faa94bc1a305cc206fe34452ae6e2878c198cc
+
+COCOAPODS: 1.9.3

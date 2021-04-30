@@ -1,0 +1,30 @@
+
+/* Class = "UITextField"; placeholder = "タイトル"; ObjectID = "06X-49-riG"; */
+"06X-49-riG.placeholder" = "タイトル";
+
+/* Class = "UIButton"; normalTitle = "→"; ObjectID = "3pm-dm-ztW"; */
+"3pm-dm-ztW.normalTitle" = "→";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "TEz-Ri-22h"; */
+"TEz-Ri-22h.normalTitle" = "Save";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "e6R-QO-h6n"; */
+"e6R-QO-h6n.title" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "jeg-sB-dXs"; */
+"jeg-sB-dXs.normalTitle" = "Save";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "o2a-QR-Nry"; */
+"o2a-QR-Nry.title" = "Back";
+
+/* Class = "UIButton"; normalTitle = "動画を撮影する"; ObjectID = "riC-Zz-14B"; */
+"riC-Zz-14B.normalTitle" = "動画を撮影する";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "sHE-r2-lPF"; */
+"sHE-r2-lPF.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "動画を撮影する"; ObjectID = "uvA-Kb-7MP"; */
+"uvA-Kb-7MP.normalTitle" = "動画を撮影する";
+
+/* Class = "UITextField"; placeholder = "タイトル"; ObjectID = "zgR-BG-SNB"; */
+"zgR-BG-SNB.placeholder" = "タイトル";

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" rowHeight="100" id="KGk-i7-Jjw" customClass="CommentTableViewCell" customModule="Precord" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020/6/23" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TiF-Xh-IiS">
+                        <rect key="frame" x="167.5" y="15" width="79" height="22"/>
+                        <color key="backgroundColor" red="0.99215686270000003" green="0.94901960780000005" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="nBQ-jM-1Kg"/>
+                            <constraint firstAttribute="width" constant="79" id="vu7-ga-CiE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.1647058824" green="0.37254901959999998" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="comment.png" translatesAutoresizingMaskIntoConstraints="NO" id="lIp-xo-zvw">
+                        <rect key="frame" x="379" y="55" width="15" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="QXm-tz-qFf"/>
+                            <constraint firstAttribute="height" constant="20" id="mAm-mW-TQE"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u77-KY-7G3">
+                        <rect key="frame" x="20" y="55" width="362" height="33"/>
+                        <color key="backgroundColor" red="0.99475599319999997" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.1647058824" green="0.37254901959999998" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="lIp-xo-zvw" secondAttribute="trailing" constant="20" id="1iS-P0-9pz"/>
+                    <constraint firstItem="u77-KY-7G3" firstAttribute="top" secondItem="TiF-Xh-IiS" secondAttribute="bottom" constant="18" id="2XY-TD-TYs"/>
+                    <constraint firstItem="u77-KY-7G3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="FAq-kw-7Kh"/>
+                    <constraint firstItem="TiF-Xh-IiS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="PyR-cS-STJ"/>
+                    <constraint firstItem="lIp-xo-zvw" firstAttribute="leading" secondItem="u77-KY-7G3" secondAttribute="trailing" constant="-3" id="d0N-JD-6Za"/>
+                    <constraint firstItem="TiF-Xh-IiS" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="rz5-3Z-hjr"/>
+                    <constraint firstItem="lIp-xo-zvw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="55" id="uos-Cs-Ftd"/>
+                    <constraint firstAttribute="bottom" secondItem="u77-KY-7G3" secondAttribute="bottom" constant="20" id="yg4-gN-msY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" red="0.68627450980000004" green="0.83921568629999999" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="commentLabel" destination="u77-KY-7G3" id="XUe-IV-9Sw"/>
+                <outlet property="timeLabel" destination="TiF-Xh-IiS" id="d80-eI-wvq"/>
+            </connections>
+            <point key="canvasLocation" x="185.50724637681162" y="162.72321428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="comment.png" width="30.5" height="40.5"/>
+    </resources>
+</document>
